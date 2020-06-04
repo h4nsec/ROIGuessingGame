@@ -1,0 +1,8 @@
+STATS
+NAME   W/L  GUESSES
+-------------------
+
+Stu  | WIN | 4
+Stu | LOSE | 5
+Stu | LOSE | 2
+Ami  | WIN | 3
