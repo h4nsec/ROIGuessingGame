@@ -54,5 +54,14 @@ if guess !=number:
 
 
 
-#score = userName, win, lose
-#print(score)
+with open('statistics.txt', 'a+') as scoresWrite:
+    if guess == number:
+        scoresWrite.write("\n" + userName + "  | " + "WIN" + " | " + str(guesses))
+    else:
+        scoresWrite.write("\n" + userName + " | " + "LOSE" + " | " + str(guesses))
+scoresWrite.close()
+
+scoresRead = open('statistics.txt', 'r+')
+scoresDisplay = scoresRead.read()
+print(scoresDisplay)
+scoresRead.close()
