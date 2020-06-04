@@ -1,0 +1,3 @@
+Name | WIN | LOSE
+Stu  |  0  |  0
+Ami  |  0  |  0
